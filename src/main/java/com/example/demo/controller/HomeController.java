@@ -10,4 +10,7 @@ public class HomeController {
     public String home() {
         return "Hello from Azure App Service!";
     }
+    @GetMapping("/bapp"){
+        return "Hello Bapp"
+    }
 }
