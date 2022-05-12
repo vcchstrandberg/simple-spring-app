@@ -14,4 +14,8 @@ public class HomeController {
     public String bapp(){
         return "Hello Bapp";
     }
+    @GetMapping("/bopp")
+    public String boppa(){
+        return "Hello Bopp";
+    }
 }
