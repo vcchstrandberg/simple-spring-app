@@ -20,6 +20,6 @@ public class HomeController {
     }
     @GetMapping("/blipp")
     public String blipp(){
-        return "Hello Blipp";
+        return "Hello Blipp Platform";
     }
 }
