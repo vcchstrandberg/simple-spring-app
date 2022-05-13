@@ -18,4 +18,8 @@ public class HomeController {
     public String boppa(){
         return "Hello Bopp";
     }
+    @GetMapping("/blipp")
+    public String blipp(){
+        return "Hello Blipp";
+    }
 }
